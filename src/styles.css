@@ -48,17 +48,40 @@ body{
 }
 .AboutWeb{
     margin-top: 60px;
-    height: 700px;
+    height: 550px;
     background-color: #570a0a;
 }
 .AboutWeb H1{
-    text-align: center;
+    text-align: left;
     color: white;
-    padding-top: 40px;
+    padding-top: 25%;
+    padding-left: 15%;
+}
+.AboutWeb p{
+  text-align: left;
+  color: white;
+  padding-left: 15%;
+}
+#text_about{
+  width: 600px;
+  padding-left: 18%;
 }
 .Footer{
     height: 300px;
     background-color: #270404;
+}
+.Footer .row{
+  height: 300px;
+}
+.Footer .topic{
+  color: #8d0e0e;
+  padding: 50px 0px 10px 40px;
+  font-size: 20px;
+}
+.Footer .sup-topic{
+  color: white;
+  font-size: 15px;
+  padding: 0px 0px 0px 60px;
 }
 .Footer H1{
     text-align: center;
@@ -66,12 +89,12 @@ body{
     padding-top: 40px;
 }
 .CloseWeb{
-    height: 80px;
+    height: 45px;
     background-color: #0f0909;
 }
-.CloseWeb H1{
+.CloseWeb p{
     text-align: center;
-    color: white;
+    color: #8d0e0e;
     padding-top: 10px;
 }
 .navbar{
